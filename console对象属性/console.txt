@@ -1,0 +1,22 @@
+Console API 是浏览器开发者工具中重要的API之一，可以在浏览器的控制台中显示代码中的各种报错和信息。
+
+而它包括了不少方法。
+
+比如大家最常用的log，
+
+console.log("Failed to open the specified link")
+和 console.log() 区分的有非标准但挺常用的console.dir(object)，可以显示 对象 的属性，通过类似文件树（也就是可以打开发现包含信息）的交互列表显示。
+
+
+还有它们的兄弟姐妹群：
+
+console.assert() 断言，判断第一个参数是否为真，否则抛出异常
+console.clear() 清空控制台，就像 命令行的clear一样
+console.count() 以参数为标识记录调用的次数，调用时打印标识和调用的次数
+console.table() 以表格形式打印列表
+console.dirxml() 打印 xml/html 元素的指定对象
+http://console.info（） 打印资讯类说明信息(比如招聘哈)
+console.debug() 打印一条debug级别的信息
+console.warn() 打印一个警告信息
+console.error() 打印一条错误信息
+...
